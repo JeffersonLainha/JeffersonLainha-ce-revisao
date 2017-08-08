@@ -1,0 +1,58 @@
+﻿body {
+  font-family : 'Consolas';
+  margin: 10px;
+}
+
+img {
+  height : 150px;
+  width  : 90px;
+}
+
+.titulo {
+	text-align : center;
+}
+
+.produtos {
+  display : inline-block;
+  margin  : 5px;
+  margin-bottom : 20px;
+}
+
+.itemProduto {
+  display : inline-block;  
+}
+
+.livro {
+  position: relative;
+  display: inline-block;
+  height: 150px;
+  width: 300px;
+  margin-bottom: 30px;  
+ }
+
+.cabecalho-rodape {  
+	height : 100px;
+	background-color : navy;
+	color : white;
+	text-align : center;
+	vertical-align : middle;
+	line-height : 100px;
+	font-size : 20px;
+	font-weight : bold;	
+}
+
+.imagemLivro {  
+  position: absolute;
+  left: 10px;
+}
+
+.dadosLivro {
+  position: absolute;
+  left: 110px;
+}
+
+.destaqueTituloLivro {
+  color : red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
